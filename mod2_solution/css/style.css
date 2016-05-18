@@ -1,0 +1,141 @@
+*{
+	box-sizing:border-box;
+}
+body{
+	   font-family: Arial;
+}
+h1{
+	margin-bottom: 15px;
+	text-align:center;
+	font-size: 175%;
+	/*float:left;*/
+}
+h2 {
+    display: inline-block;
+    font-size: 125%;
+    border: 1px solid black;
+    padding: 5px;
+    font-size: 125%;
+    width: 150px;
+    text-align: center;
+    margin-top: -13px;
+    margin-bottom: 0;
+    position: absolute;
+    right: -1px;
+    top: 12px;
+    color: #fff;
+}
+p{
+	margin-bottom:0;
+	text-align: center;
+}
+.chicken {
+    background-color: #ff8c38;
+}
+.chicken:hover {
+    background-color: #fff;
+    color: #ff8c38;
+    cursor: pointer;
+}
+.beef {
+    background-color: #913232;
+}
+.beef:hover {
+    background-color: #fff;
+    color: #913232;
+    cursor: pointer;
+
+}
+.sushi {
+    background-color: #369818;
+}
+.sushi:hover {
+    background-color: #fff;
+    color: #369818;
+    cursor: pointer;
+}
+.section{
+    background-color: gray;
+    border: 1px solid black;
+    position: relative;
+    min-height: 200px;
+    margin-right: 15px;
+    margin-left: auto;
+    margin-bottom: 15px;
+    padding: 20px;
+    padding-top: 35px;
+    box-sizing: border-box;
+    min-width: 300px;
+    overflow: hidden;
+
+
+}
+
+.row{
+	width:100%;
+
+}
+/*desktop view*/
+@media (min-width:992px){
+	.col-lg-1, .col-lg-2, .col-lg-3{
+		/*width: 100%;*/
+		float:left;
+		border:1px solid green;
+	
+	}
+		.col-lg-1 {
+			width:33.33%;
+		}
+		.col-lg-2 {
+			width:66.66%;
+		}
+		.col-lg-3 {
+			width:100%;
+		}
+}
+
+/*tablet view*/
+@media (min-width:768px) and (max-width:991px){
+	.col-md-1, .col-md-2, .col-md-3{
+		border:1px solid green;
+		float:left;
+		
+	}
+		.col-md-1 {
+			width:33.33%;
+			
+
+		}
+		.col-md-2 {
+			width:50%;
+			
+			
+		}
+		.col-md-3 {
+			width:100%;
+			
+
+		}
+
+}
+/*mobile view*/
+@media (max-width:767px){
+	.col-sm-1, .col-sm-2, .col-sm-3
+	{
+		border:1px solid green;
+		float:left;
+
+	}
+		.col-sm-1 {
+			width:33.33%;
+		
+		}
+		.col-sm-2 {
+			width:66.66%;
+			
+		}
+		.col-sm-3 {
+			width:100%;
+		}
+}
+
